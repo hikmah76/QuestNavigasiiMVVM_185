@@ -40,7 +40,7 @@ fun TampilMahasiswaView(
         )
         TampilData(
             judul = "NoHp",
-            isinya = mhs.noHp
+            isinya = mhs.noHp //menambahkan noHp pada tampilMahasiswaView
         )
     }
 }
