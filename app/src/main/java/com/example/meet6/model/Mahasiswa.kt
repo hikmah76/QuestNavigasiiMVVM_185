@@ -9,4 +9,4 @@ data class Mahasiswa(
     val alamat : String ="",
     val email : String ="",
     val noHp : String =""
-)
+)//Mutable data yang bisa di ubah
