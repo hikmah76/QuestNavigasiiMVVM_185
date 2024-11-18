@@ -28,7 +28,7 @@ fun Navigasi(
     viewModel: MahasiswaViewModel = viewModel(),
     navController: NavHostController = rememberNavController()
 ) {
-    Scaffold { paddingValues ->
+    Scaffold { paddingValues -> //Layout  dengan elemen UI
 
         val uiState by viewModel.uiState.collectAsState()
 
