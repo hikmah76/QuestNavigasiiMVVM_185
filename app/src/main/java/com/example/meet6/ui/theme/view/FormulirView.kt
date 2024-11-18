@@ -71,13 +71,13 @@ fun FormulirView(modifier: Modifier = Modifier,
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(5.dp),
-            label = { Text("NIM") },
+            label = { Text("NIM") }, //menambahkan nim pada formulirView
             placeholder = { Text("Masukkan NIM Anda") },
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
         )
 
         Row (
-            modifier = Modifier.fillMaxWidth()) {       //mengganti variabel modifier dengan Modifier
+            modifier = Modifier.fillMaxWidth()) {
             pilihanJK.forEach(){ selectedGender ->
                 Row (verticalAlignment = Alignment.CenterVertically) {
                     RadioButton(
