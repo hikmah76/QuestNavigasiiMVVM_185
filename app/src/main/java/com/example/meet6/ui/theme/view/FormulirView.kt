@@ -38,7 +38,7 @@ fun FormulirView(modifier: Modifier = Modifier,
     var email by remember { mutableStateOf("") }
     var noHp by remember { mutableStateOf("") }
     var alamat by remember { mutableStateOf("") }
-    var gender by remember { mutableStateOf("") }
+    var gender by remember { mutableStateOf("") } //Menyimpan data input
 
     var listdata : MutableList<String> = mutableListOf(nama, gender, alamat, noHp, email, nim)
 
