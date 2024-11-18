@@ -47,7 +47,7 @@ fun Navigasi(
                         viewModel.saveDataMahasiswa(mahasiswaData)
                         navController.navigate(Halaman.Data.name)
                     }
-                )
+                )//simpan data mahasiswa
             }
             composable(route = Halaman.Data.name) {
                 TampilMahasiswaView(
