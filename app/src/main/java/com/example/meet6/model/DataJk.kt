@@ -6,5 +6,5 @@ object DataJK {
     val isiJK = listOf(
         R.string.laki,
         R.string.wanita
-    )
+    )// Immutable data yang tidak dapat di ubah
 }
